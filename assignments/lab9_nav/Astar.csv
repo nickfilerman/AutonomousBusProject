@@ -1,0 +1,22 @@
+Node,D: A*,H: A*,F: A*,Order
+A,0,12,12,1
+B,4,10,14,2
+C,5,11,16,Inf
+D,2,14,16,Inf
+E,7,20,27,Inf
+F,Inf,20,Inf,Inf
+G,Inf,22,Inf,Inf
+H,6,16,22,Inf
+J,9,8,17,4
+K,6,9,15,3
+L,13,5,18,Inf
+M,3,9,12,Inf
+N,15,2,17,7
+P,Inf,3,Inf,Inf
+Q,10,6,16,5
+R,15,1,16,Inf
+S,Inf,22,Inf,Inf
+T,13,3,16,6
+U,7,7,14,Inf
+V,Inf,23,Inf,Inf
+Z,17,0,17,8

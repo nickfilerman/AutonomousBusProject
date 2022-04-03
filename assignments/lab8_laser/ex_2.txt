@@ -1,0 +1,9 @@
+By only considering the centroid, you are ignoring the actual size of the object. Centroids only tell you the mean x,y position, not the width or the depth, or if there
+is any motion of the object that may be keeping the centroid the same.
+
+Calculating the centroid of an object can be quite slow, especially with larger objects and higher quantities of objects. It isn't necessarily accurate, and this problem
+only becomes more apparent while moving at higher speeds (or if the object is moving), seeing the centroids move due to their relative position and tracking from the robot.
+
+As anything goes with having a constraint, in this case T=0.25 meters. There is no perfect number to set for this value. If the number is large and you have two objects 
+that are quite close together, we may see it as one object rather than two, and then two objects having one centroid. However if the number is very small, it is possible that
+you might recognize one object as two and having two centroids. This problem could only make the prior two issues greater. 

@@ -1,0 +1,22 @@
+Node,D: Dijkstras,Order
+A,0,1
+B,4,2
+C,5,Inf
+D,2,Inf
+E,6,Inf
+F,18,Inf
+G,12,Inf
+H,3,Inf
+J,9,4
+K,6,3
+L,13,Inf
+M,3,Inf
+N,15,7
+P,15,Inf
+Q,10,5
+R,15,Inf
+S,Inf,Inf
+T,15,6
+U,7,Inf
+V,16,Inf
+Z,17,8

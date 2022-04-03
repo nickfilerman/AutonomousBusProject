@@ -1,0 +1,5 @@
+<launch>
+  <node name="player" pkg="rosbag" type="play" output="screen" args="--clock /home/$(env USER)/bags/intrinsic_cali.bag"/>
+  <node name="uncompress" pkg="image_transport" type="republish" args="compressed in:=/raspicam_node/image raw out:=/camera/image_raw"/>
+  <node name="in_cali" pkg="camera_calibration" type="cameracalibrator.py" args="--size 8x6 --square 0.026 --no-service-check --camera_name tbotcam image:=/camera/image_raw camera:=/raspicam_node"/>
+</launch>

@@ -1,0 +1,7 @@
+x focal length: 503.06394       units: pix
+y focal length: 501.02666       units: pix
+x optical center: 316.89092     units: pix
+y optical center: 212.68899     units: pix
+Radial distortion parameters       k1: 0.170809     k2: -0.245165     k3: -0.004728
+Tangential distortion parameters   p1: -0.002905     p2: 0.000000
+
