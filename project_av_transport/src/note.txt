@@ -1,0 +1,8 @@
+roscore
+
+rosbag play --loop --clock --rate=0.1 ~/av_bus/Farm_Lane_1/av_bus_min_08.bag
+
+source ~/envs/cv4/bin/activate
+rosrun project_av_transport detect.py ~/models
+
+rostopic echo /bus_stopping
