@@ -1,4 +1,0 @@
-<launch>
-  <node name="detect" pkg="lab4_color" type="multi_dot_detect.py" args="$(find lab4_color)/im_save/img_000.jpg $(find lab4_color)/im_save/img_000_mask.png" />
-  <node name="plot" pkg="lab4_color" type="plot_multi_dot.py" />
-</launch>

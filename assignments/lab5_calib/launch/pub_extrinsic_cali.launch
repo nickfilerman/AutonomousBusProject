@@ -1,3 +1,0 @@
-<launch>
-  <node name="Extrinsic_Publisher" pkg="tf2_ros" type="static_transform_publisher" args="-0.1 0. 0.15 0.497876 0.531387 -0.486122 -0.483149 base_footprint camera_pose" />
-</launch>
