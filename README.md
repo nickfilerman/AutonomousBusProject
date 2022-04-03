@@ -10,8 +10,8 @@
 
 
 ## Final Project
-**[Project Proposal](proposal.md)**
+**[Project Proposal](project/proposal.md)**
 
-**[Project Report](Report.pdf)**
+**[Project Report](project/Report.pdf)**
 
 **[Project Video](https://mediaspace.msu.edu/media/t/1_dnw07eds)**
