@@ -1,7 +1,7 @@
 # Team 2
 ## Nick Filerman & Stephen Ng
 
-**[Project Proposal](Project_Proposal.md)**
+**[Project Proposal](project.md)**
 
 **[Project Report](Report.pdf)**
 
